@@ -1,1 +1,1 @@
-# Lets create a Readme file which is tells everything about the project.
+# Lets create a Readme file which tells everything about the project.
