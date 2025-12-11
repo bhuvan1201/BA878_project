@@ -1,7 +1,9 @@
 # Benchmarking Modern Deep Learning Architectures for ECG Diagnosis Using PTB-XL  
 ### Boston University — BA878 Final Project  
 **Authors:** Bhuvan S. Gowda, Sumanth H. Kamath, Rishabh R. Suravaram, Hung T. Tran  
+
 **Instructor:** Prof. Ned Mccague 
+
 **Teaching Assistant:** Manan Goel 
 
 ---
