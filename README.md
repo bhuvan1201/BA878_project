@@ -113,19 +113,6 @@ Macro-averaging ensures each diagnostic class contributes equally despite datase
 
 ---
 
-## Running the Code  
-
-### 1. Download PTB-XL Dataset  
-Place the files into:
-
-
-### 2. Install Required Dependencies
-
-
-### 3. Run the Notebooks  
-
-
----
 
 ## Citation  
 
