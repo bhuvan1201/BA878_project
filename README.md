@@ -119,7 +119,7 @@ Macro-averaging ensures each diagnostic class contributes equally despite datase
 If using this work, please cite our project:
 
 **Benchmarking Modern Deep Learning Architectures for ECG Diagnosis Using PTB-XL**  
-Bhuvan S. Gowda, Sumanth H. Kamath, Rishabh R. Suravaram, Hung T. Tran
+Bhuvan S. Gowda, Sumanth H. Kamath, Rishabh R. Suravaram, Hung T. Tran  
 Boston University, 2025
 
 ---
