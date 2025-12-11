@@ -1,6 +1,6 @@
 # 📊 Benchmarking Modern Deep Learning Architectures for ECG Diagnosis Using PTB-XL  
 ### Boston University — BA878 Final Project  
-**Authors:** Bhuvan S. Gowda, Sumanth H. Kamath, Rishabh R. Suravaram, Hung T. Tran 
+**Authors:** Bhuvan S. Gowda, Sumanth H. Kamath, Rishabh R. Suravaram, Hung T. Tran  
 **Instructor:** Prof. Ned Mccague 
 
 ---
@@ -13,13 +13,13 @@ In this project, we benchmark five modern deep learning architectures on the PTB
 
 ## 📁 Repository Structure
 
-BA878_project/
+BA878_project/  
 │
-├── EDA and baseline model.ipynb       # Exploratory analysis + ResNet1D baseline
-├── transformer_final.ipynb            # TransformerECG implementation
-├── BA878_FINAL_CODE_1.ipynb           # Additional models (MRMT-GNN, MultiResCNN, WaveletAttention)
-├── README.md                          # Project documentation
-└── data/                              # (Not included) PTB-XL dataset files go here
+├── EDA and baseline model.ipynb       # Exploratory analysis + ResNet1D baseline  
+├── transformer_final.ipynb            # TransformerECG implementation  
+├── BA878_FINAL_CODE_1.ipynb           # Additional models (MRMT-GNN, MultiResCNN, WaveletAttention)  
+├── README.md                          # Project documentation  
+└── data/                              # (Not included) PTB-XL dataset files go here  
 
 
 ---
@@ -153,5 +153,5 @@ Boston University, 2025
 For questions or collaboration, contact:  
 **Sumanth Kamath** — sumanth1810@bu.edu  
 **Bhuvan Gowda** — bhuvan1201@bu.edu  
-**Rishabh Reddy** - rishabh1@bu.edu
+**Rishabh Reddy** - rishabh1@bu.edu  
 **Hung Tran** - khungt@bu.edu
