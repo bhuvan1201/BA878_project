@@ -9,18 +9,6 @@
 Electrocardiograms (ECGs) are essential tools for diagnosing cardiac abnormalities, yet interpretation often varies between clinicians. This motivates the development of automated, consistent, and reliable ECG classification systems.  
 In this project, we benchmark five modern deep learning architectures on the PTB-XL dataset to evaluate their effectiveness in multi-label ECG classification. Our goal is to understand how different architectural families—convolutional, multi-resolution, transformer-based, wavelet-enhanced, and graph-based models—perform under a unified and reproducible pipeline.
 
----
-
-## Repository Structure
-
-BA878_project/  
-│  
-├── EDA and baseline model.ipynb       # Exploratory analysis + ResNet1D baseline  
-├── transformer_final.ipynb            # TransformerECG implementation  
-├── BA878_FINAL_CODE_1.ipynb           # Additional models (MRMT-GNN, MultiResCNN, WaveletAttention)  
-├── README.md                          # Project documentation  
-└── data/                              # (Not included) PTB-XL dataset files go here  
-
 
 ---
 
