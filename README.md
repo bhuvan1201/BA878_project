@@ -1,20 +1,20 @@
-# 📊 Benchmarking Modern Deep Learning Architectures for ECG Diagnosis Using PTB-XL  
+# Benchmarking Modern Deep Learning Architectures for ECG Diagnosis Using PTB-XL  
 ### Boston University — BA878 Final Project  
 **Authors:** Bhuvan S. Gowda, Sumanth H. Kamath, Rishabh R. Suravaram, Hung T. Tran  
 **Instructor:** Prof. Ned Mccague 
 
 ---
 
-## 🌟 Project Overview  
+## Project Overview  
 Electrocardiograms (ECGs) are essential tools for diagnosing cardiac abnormalities, yet interpretation often varies between clinicians. This motivates the development of automated, consistent, and reliable ECG classification systems.  
 In this project, we benchmark five modern deep learning architectures on the PTB-XL dataset to evaluate their effectiveness in multi-label ECG classification. Our goal is to understand how different architectural families—convolutional, multi-resolution, transformer-based, wavelet-enhanced, and graph-based models—perform under a unified and reproducible pipeline.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 BA878_project/  
-│
+│  
 ├── EDA and baseline model.ipynb       # Exploratory analysis + ResNet1D baseline  
 ├── transformer_final.ipynb            # TransformerECG implementation  
 ├── BA878_FINAL_CODE_1.ipynb           # Additional models (MRMT-GNN, MultiResCNN, WaveletAttention)  
@@ -24,7 +24,7 @@ BA878_project/
 
 ---
 
-## 🧠 Dataset — PTB-XL  
+## Dataset — PTB-XL  
 - PTB-XL contains **27,765** clinical 12-lead ECGs (10-second recordings).  
 - We used **100 Hz** low-resolution waveforms.  
 - Each ECG includes **71 SCP-ECG diagnostic statements**, mapped into **five diagnostic superclasses**:
@@ -49,7 +49,7 @@ These features were encoded as integers and used as additional model inputs.
 
 ---
 
-## 🛠 Preprocessing Pipeline  
+## Preprocessing Pipeline  
 - Load ECG waveforms using the **WFDB** library  
 - Resample to **100 Hz** if needed  
 - Store signals as tensors of shape `(samples, 12_leads, 1000_timepoints)`  
@@ -61,7 +61,7 @@ These features were encoded as integers and used as additional model inputs.
 
 ---
 
-## 🏗 Model Architectures  
+## Model Architectures  
 
 We evaluated five models:
 
@@ -76,7 +76,7 @@ We evaluated five models:
 
 ---
 
-## 📏 Evaluation Metrics  
+## Evaluation Metrics  
 
 We assessed model performance using:
 
@@ -89,7 +89,7 @@ Macro-averaging ensures each diagnostic class contributes equally despite datase
 
 ---
 
-## 📈 Results Summary  
+## Results Summary  
 
 ### Key Findings  
 - **TransformerECG achieved the highest AUC**, showing strong discriminative ability.  
@@ -109,7 +109,7 @@ Macro-averaging ensures each diagnostic class contributes equally despite datase
 
 ---
 
-## 🚧 Limitations  
+## Limitations  
 - Only **20 epochs** of training; complex models require longer optimization  
 - No interpretability methods (Grad-CAM, saliency maps) included  
 - Only **five superclasses** used instead of full 44-label PTB-XL taxonomy  
@@ -117,7 +117,7 @@ Macro-averaging ensures each diagnostic class contributes equally despite datase
 
 ---
 
-## 🔮 Future Work  
+## Future Work  
 - Train models with **longer schedules and tuned hyperparameters**  
 - Incorporate **explainability tools** for clinical validation   
 - Perform **subgroup analyses** for fairness evaluation  
@@ -125,7 +125,7 @@ Macro-averaging ensures each diagnostic class contributes equally despite datase
 
 ---
 
-## ▶️ Running the Code  
+## Running the Code  
 
 ### 1. Download PTB-XL Dataset  
 Place the files into:
@@ -139,7 +139,7 @@ Place the files into:
 
 ---
 
-## 📜 Citation  
+## Citation  
 
 If using this work, please cite our project:
 
@@ -149,7 +149,7 @@ Boston University, 2025
 
 ---
 
-## 📧 Contact  
+## Contact  
 For questions or collaboration, contact:  
 **Sumanth Kamath** — sumanth1810@bu.edu  
 **Bhuvan Gowda** — bhuvan1201@bu.edu  
